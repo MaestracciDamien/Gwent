@@ -1,7 +1,7 @@
 #include "Deck.hpp"
 
 void Deck::addCard(Card c){
-
+	_deck.push(c);
 }
 
 Card Deck::getCard(){
@@ -11,5 +11,5 @@ Card Deck::getCard(){
 }
 
 void Deck::shuffle(){
-
+	//TODO
 }
