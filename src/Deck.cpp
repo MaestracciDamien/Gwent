@@ -1,5 +1,10 @@
 #include "Deck.hpp"
 
+using namespace std;
+Deck::Deck(){
+
+}
+
 void Deck::addCard(Card c){
 	_deck.push(c);
 }
