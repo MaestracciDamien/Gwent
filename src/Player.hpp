@@ -5,7 +5,10 @@ class Player{
 		Pit _pit;
 		Game _game;
 		Camp _camp;
-		
+
+		//nombre de vie du joueur
+		int _life;
+
 	public:
 		
 };
