@@ -1,4 +1,5 @@
 #include "Card.hpp"
+#include "Action.hpp"
 class NormalCard : public Card{
 	private:
 		Action _action;

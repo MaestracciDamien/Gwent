@@ -1,9 +1,12 @@
+#include <vector>
+#include "Card.hpp"
+
 class Pit{
 	private:
-		vector<Card> _vector;
+		std::vector<Card> _vector;
 
 	public:
-		vector<Card> getCards();
+		std::vector<Card> getCards();
 		void addCard(Card c);
 		Card removeCard(int id);
 };
