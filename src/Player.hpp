@@ -5,6 +5,7 @@ class Player{
 		Pit _pit;
 		Game _game;
 		Camp _camp;
+		
 	public:
 		
 };
