@@ -8,5 +8,5 @@ class Hand{
 		//retourne la liste des cartes
 		vector<Card> getCards();
 		void addCard(Card c);
-		Card removeCard(Card c);
+		Card removeCard(int id);
 };

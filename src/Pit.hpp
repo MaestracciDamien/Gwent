@@ -5,5 +5,5 @@ class Pit{
 	public:
 		vector<Card> getCards();
 		void addCard(Card c);
-		Card removeCard(Card c);
+		Card removeCard(int id);
 };
