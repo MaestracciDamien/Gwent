@@ -1,11 +1,8 @@
-class Hand{
+class Pit{
 	private:
-		vector<Card> _hand;
+		vector<Card> _vector;
 
 	public:
-
-
-		//retourne la liste des cartes
 		vector<Card> getCards();
 		void addCard(Card c);
 		Card removeCard(Card c);
