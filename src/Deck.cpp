@@ -1,8 +1,7 @@
 #include "Deck.hpp"
 
-using namespace std;
 Deck::Deck(){
-
+	_deck
 }
 
 void Deck::addCard(Card c){

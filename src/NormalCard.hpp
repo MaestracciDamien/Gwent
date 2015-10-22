@@ -7,6 +7,7 @@ class NormalCard : public Card{
 		int _power;
 
 	public:
+		NormalCard(bool h, int pos, int pow, Action a);
 		void action();
 		bool isHero();
 		int getPosition();
