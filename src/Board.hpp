@@ -1,3 +1,4 @@
+#include "Ligne.hpp"
 class Board{
 private:
 	Ligne melee,distance,siege;

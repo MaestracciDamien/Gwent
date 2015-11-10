@@ -1,11 +1,11 @@
 #include "NormalCard.hpp"
 
-NormalCard::NormalCard(bool h, int pos, int pow, Action a) : _hero(h), _position(pos), _power(pow), _action(a){
+NormalCard::NormalCard(bool h, int pos, int pow, Action &a) : _hero(h), _position(pos), _power(pow), _action(a){
 
 };
 
 void NormalCard::action(){
-	//_action.action();
+	_action.action();
 }
 
 bool NormalCard::isHero(){

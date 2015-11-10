@@ -1,7 +1,7 @@
 #include "Deck.hpp"
 
 Deck::Deck(){
-	_deck
+	_deck = new std:stack<Card>();
 }
 
 void Deck::addCard(Card c){
