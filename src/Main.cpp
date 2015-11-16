@@ -5,6 +5,7 @@ int main(int argc, char const *argv[])
 {
 	Action *a = new Moral();
 
-	NormalCard *c = new NormalCard(false,5,2,*a);
+	NormalCard *c = new NormalCard(42,false,5,2,a);
+	c->action();
 	return 0;
 }

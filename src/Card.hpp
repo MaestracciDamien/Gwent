@@ -7,6 +7,7 @@ class Card{
 
 	public:
 		int getId();
+		Card(int id);
 };
 
 #endif
