@@ -2,13 +2,14 @@
 #include "Action.hpp"
 class NormalCard : public Card{
 	private:
-		Action *_action;
+		
 		bool _hero;
 		int _position;
 		int _power;
+		Action *_action;
 
 	public:
-		NormalCard(bool h, int pos, int pow, Action &a);
+		NormalCard(int id, bool h, int pos, int pow, Action *a);
 		void action();
 		bool isHero();
 		int getPosition();
