@@ -1,5 +1,5 @@
 #include "Card.hpp"
 
-int Card::getID(){
+int Card::getId(){
 	return _id;
 }

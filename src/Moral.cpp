@@ -1,5 +1,7 @@
 #include "Moral.hpp"
+#include <iostream>
 
-Action::action(){
-
+void Moral::action(){
+	std::cout<< "ça marche" << std::endl;
 }
+

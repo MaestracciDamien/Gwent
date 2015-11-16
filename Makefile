@@ -1,5 +1,5 @@
 # Project name
-EXEC=ghost
+EXEC=Gwent
 
 # Compiler
 IDIR=include include/constraints include/domains include/misc include/objectives include/variables
