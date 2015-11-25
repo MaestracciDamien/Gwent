@@ -1,5 +1,6 @@
 #include "Card.hpp"
 #include "Action.hpp"
+#include <string>
 
 class SpecialCard : public Card{
 	private:
@@ -7,4 +8,5 @@ class SpecialCard : public Card{
 
 	public:
 		void action();
+		SpecialCard(int id,std::string n,Capacite *c);
 };

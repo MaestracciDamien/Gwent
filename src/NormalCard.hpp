@@ -1,5 +1,6 @@
 #include "Card.hpp"
 #include "Action.hpp"
+#include <string>
 class NormalCard : public Card{
 	private:
 		
@@ -9,7 +10,7 @@ class NormalCard : public Card{
 		Action *_action;
 
 	public:
-		NormalCard(int id,string s, bool h, int pos, int pow, Action *a);
+		NormalCard(int id,std::string s, bool h, int pos, int pow, Action *a);
 		void action();
 		bool isHero();
 		int getPosition();

@@ -1,6 +1,6 @@
 #include "Action.hpp"
 
-class Spy : public Action{
+class NormalAction : public Action{
 	public:
 		void action();
 };

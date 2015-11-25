@@ -1,3 +1,5 @@
+#ifndef DECK_H
+#define DECK_H
 #include <stack>
 #include "Card.hpp"
 class Deck{
@@ -10,3 +12,4 @@ class Deck{
 		virtual Card* getCard();
 		void shuffle();
 };
+#endif

@@ -11,10 +11,13 @@ int main(int argc, char const *argv[])
 
 	NormalCard *c = new NormalCard(42,false,5,2,a);
 	//c->action();
-	Deck *d = new Deck();
-	d->addCard(c);
-	Card *e = d->getCard();
+	Factory *f = new Factory();
+	Deck d = f->creerDeck() ;
 	
+	for (int i = 0; i < 25; ++i)
+	{
+		cout<< d.getCard()->getId() << endl;
+	}
 	cout<< e->getId() << endl;
 	return 0;
 }

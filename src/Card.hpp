@@ -1,14 +1,15 @@
 #ifndef CARD_H
 #define CARD_H
+#include <string>
 
 class Card{
 	private:
 		int _id;
-		string _nom;
+		std::string _nom;
 
 	public:
 		int getId();
-		Card(int id,string s);
+		Card(int id,std::string s);
 		virtual void action()=0;
 };
 
