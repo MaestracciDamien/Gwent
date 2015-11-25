@@ -1,6 +1,6 @@
 #include "Card.hpp"
 
-Card::Card(int id): _id(id){
+Card::Card(int id,string s): _id(id), _nom(s){
 	
 }
 int Card::getId(){

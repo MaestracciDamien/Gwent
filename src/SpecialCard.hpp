@@ -3,7 +3,7 @@
 
 class SpecialCard : public Card{
 	private:
-		Action *_action;
+		Capacite *_capacite;
 
 	public:
 		void action();

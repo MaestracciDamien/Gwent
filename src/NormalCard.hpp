@@ -9,7 +9,7 @@ class NormalCard : public Card{
 		Action *_action;
 
 	public:
-		NormalCard(int id, bool h, int pos, int pow, Action *a);
+		NormalCard(int id,string s, bool h, int pos, int pow, Action *a);
 		void action();
 		bool isHero();
 		int getPosition();

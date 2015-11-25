@@ -2,11 +2,11 @@
 #include "Card.hpp"
 class Deck{
 	private:
-		std::stack<Card> *_deck;
+		std::stack<Card*> *_deck;
 
 	public:
 		Deck();
-		void addCard(Card c);
-		Card getCard();
+		void addCard(Card* c);
+		virtual Card* getCard();
 		void shuffle();
 };

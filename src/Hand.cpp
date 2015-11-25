@@ -19,4 +19,5 @@ Card Hand::removeCard(int id){
 	    	}
 	    	++c;
 	    }
+	    return _hand.at(pos);
 }
