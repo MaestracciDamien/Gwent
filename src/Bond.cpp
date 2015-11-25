@@ -2,6 +2,6 @@
 #include <iostream>
 
 void Bond::action(){
-	std::cout<< "ça marche bond" << std::endl;
+	std::cout<< "Bond" << std::endl;
 }
 

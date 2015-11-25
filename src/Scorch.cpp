@@ -2,6 +2,6 @@
 #include <iostream>
 
 void Scorch::action(){
-	std::cout<< "ça marche scorch" << std::endl;
+	std::cout<< "Scorch" << std::endl;
 }
 

@@ -2,6 +2,6 @@
 #include <iostream>
 
 void Spy::action(){
-	std::cout<< "ça marche SPy" << std::endl;
+	std::cout<< "SPy" << std::endl;
 }
 
