@@ -10,7 +10,7 @@ class Card{
 	public:
 		int getId();
 		Card(int id,std::string s);
-		virtual void action()=0;
+		virtual void action();
 };
 
 #endif

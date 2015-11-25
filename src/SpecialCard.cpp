@@ -1,7 +1,7 @@
 #include "SpecialCard.hpp"
 #include <string>
 
-SpecialCard::SpecialCard(int id,string s,Capacite *c) :Card(id,s), _capacite(c){
+SpecialCard::SpecialCard(int id,std::string s,Capacite *c) :Card(id,s), _capacite(c){
 
 }
 

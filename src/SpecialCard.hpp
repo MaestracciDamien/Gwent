@@ -1,4 +1,5 @@
 #include "Card.hpp"
+#include "Capacite.hpp"
 #include "Action.hpp"
 #include <string>
 

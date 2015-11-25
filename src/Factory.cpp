@@ -51,6 +51,8 @@ Deck  Factory::creerDeck(){
 	e->addCard(new SpecialCard(30,"Clear Weather",c));
 	e->addCard(new SpecialCard(30,"Clear Weather",c));
 
+	return *e;
+
 
 
 
