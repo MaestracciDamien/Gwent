@@ -2,6 +2,6 @@
 #include <iostream>
 
 void Moral::action(){
-	std::cout<< "ça marche" << std::endl;
+	std::cout<< "Moral" << std::endl;
 }
 
